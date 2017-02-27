@@ -8,23 +8,47 @@ Now, unleash your coding beast!
 
 /*1.  Variables with a String as their value.
 Declare variables named yourName, neighborName, teacherName.  Console log each variable.*/
+var yourName = "Ernest";
+var neighborName = "Pat the Neighbor";
+var teacherName = "Sam the teacher";
+
+console.log(yourName);
+console.log(neighborName);
+console.log(teacherName);
 
 /*2. Variable with a Number as their value.
 Declare variables named numberOfFloorsBurjKhalifa, TokyoOlympicsYear. Please assign the actual data for each variable.
 Console log each variable.*/
+var numberOfFloorsBurjKhalifa = 163;
+var TokyoOlympicsYear =  2020;
 
+console.log(numberOfFloorsBurjKhalifa+" of floors");
+console.log(TokyoOlympicsYear+" for Tokyo");
 /*3. Variables with Boolean values
 Declare variables named lovesPrepClass, eatsDonuts, drinksGin.  Console log each variable.*/
+var lovesPrepClass = true;
+var eatsDonuts = false;
+var drinksGin = true;
 
+console.log(lovesPrepClass);
+console.log (eatsDonuts);
+console.log(drinksGin);
 /*4. Variable with Null values
 Declare variables named completedCodingChallenge, traveledToSpace.  Console log each variable*/
+var completedCodingChallenge = null;
+var traveledToSpace = null;
 
+console.log(completedCodingChallenge);
+console.log (traveledToSpace);
 /*5.  Variables with Array for its value.
 Declare a variable named japanPrefectures and assign the value of any 5 prefectures in Japan.
 Console log the variable 
 Console log the value at index 1.
 Console log the value at index 3.*/
-
+var japanPrefectures=["Kyoto","Aichi","Fukui","Shiga","Nara"];
+console.log(japanPrefectures);
+console.log(japanPrefectures[1]);
+console.log(japanPrefectures[3]);
 /*6.  Variable with Array for its value.
 Declare a variable named planets and assign the value of each planet in our solar system, in the order of distance from the sun.  
 Console log the variable
